@@ -3,6 +3,11 @@
     margin: 0;
     padding: 0;
 }
+:root {
+    --primary-color: #fce138;
+    --secondary-color: #024e76;
+    --tertiary-color: #39a6b2;
+  }
     /* HEADER/NAV STYLE START  */
 header {
     display: flex;
@@ -12,18 +17,19 @@ header {
     position: sticky;
     top: 0;
     padding: 20px 35px;
-    background-color: darkslategrey;
+    background-color: var(--tertiary-color);
 }
 header h1 {
     font-weight: bold;
     margin: 0%;
     font-size: 36px;
-    color: black;
+    color: var(--primary-color);
     padding: 5px 2px 2px 2px;
 }
 header a {
-    color:lightblue;
+    color: var(--primary-color);
     text-decoration: none;
+    
 }
 header nav {
     margin: 7px 0;
@@ -39,4 +45,62 @@ header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
     font-weight: 1.55vw;
+}
+
+   /* header style end */
+
+    /* footer style start */
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    background-color: var(--primary-color);
+    padding: 40px 35px;
+}
+footer h2 {
+    color: var(--secondary-color);
+    font-size: 30px;
+    margin: 0;
+}
+footer div {
+    line-height: 1.5;
+    text-align: right;
+}
+section {
+    padding: 60px;
+}
+.hero {
+background-image: url('../images/game.webp');
+background-size: 200px;
+display: flex;
+justify-content: right;
+}
+.hero h2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+    
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.contact h2 {
+ font-weight: bold;
+ font-size: 36px;
+ color: var(--primary-color);
+ text-align: right;
+}
+.contact ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+}
+.contact ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
 }
