@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+    /* HEADER/NAV STYLE START  */
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 20px 35px;
+    background-color: darkslategrey;
+}
+header h1 {
+    font-weight: bold;
+    margin: 0%;
+    font-size: 36px;
+    color: black;
+    padding: 5px 2px 2px 2px;
+}
+header a {
+    color:lightblue;
+    text-decoration: none;
+}
+header nav {
+    margin: 7px 0;
+}
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-weight: 1.55vw;
+}
