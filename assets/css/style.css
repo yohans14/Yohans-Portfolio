@@ -72,35 +72,90 @@ section {
     padding: 60px;
 }
 .hero {
-background-image: url('../images/game.webp');
-background-size: 200px;
+background-image: url('../images/IMG_0350.jpg');
+background-size: cover;
+height: 300px;
 display: flex;
 justify-content: right;
+width: 100%;
 }
 .hero h2 {
     display: flex;
     flex-wrap: wrap;
-}
-    
-.contact {
+    background-color: lightblue ;
+    font-size: 36px;
+    padding: 0%;
+
+}  
+.about {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
+    flex-wrap: wrap; 
+
 }
-.contact h2 {
- font-weight: bold;
- font-size: 36px;
- color: var(--primary-color);
- text-align: right;
+
+.title{
+    width: 30%;
+    text-align: right;
+    margin: 2%;
+    font-size: 30;
+    flex: .5;
 }
-.contact ul {
+.content{
+    width: 60%;
+    margin: 2%;
+    border-left: 3px solid;
+    flex: 2;
+    text-align: center;
+}
+.contact{
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
+    flex-wrap: wrap;  
+}
+.contact div ul{
+    display: flex;
+    width: 100%;
     list-style: none;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
 }
-.contact ul li a {
-    padding: 10px 15px;
+
+.contect div ul li a {
+    padding: 2%;
     font-weight: lighter;
-    font-size: 1.55vw;
+    font-weight: 20px;
+}
+
+.work { 
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    width: 100%;
+    justify-content: space-around;
+}
+.content work{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.new img {
+    width: 100%;
+}
+.old img {
+    width: 100%;
+}
+.work div {
+    display: flex;
+    padding: 10px;
+}
+.work h3 {
+   font-size: 20px; 
+}
+
+.new{ flex: 4;
+}
+.old{
+    flex-wrap: wrap;
 }
