@@ -1,0 +1,149 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: #39a6b2;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: none;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: sticky;
+    padding: 20px 35px;
+    background-color: #39a6b2;
+    position: relative
+}
+header h1{
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    position: absolute
+    position: auto 70px;
+}
+header img {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; 
+}
+header a {
+    text-decoration: none;
+    color: #fce139;
+}
+header nav {
+float: right;
+margin: 7px 0;
+}
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 22px;
+    font-weight: 11.55vw;
+}
+footer {
+    background-color: #fce138;
+    width: 100%;
+    padding: 40px 35px;
+    clear: both;
+    display: flex;
+    flex-wrap: wrap;
+}
+footer h2 {
+    display: flex;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0%;
+}
+footer div {
+    float: right;
+    text-align: right;
+}
+/* Hero Style Start */
+.hero {
+    background-image: url("../images/IMG_0350.jpg");
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  /* Hero Style End */
+  .hero h2 {
+    background-color: burlywood;
+    padding: 20px;
+    width: 500px;
+    color: #024e76;
+    position: absolute;
+    bottom: 60px;
+    right: 70px;
+  }
+  .about {
+      display: flex;
+      flex-wrap: wrap;
+  }
+  .about-info {
+      display: flex;
+      flex-wrap: wrap;
+  }
+  .p {
+    color: #39a6b2;
+    font-size: 20px;
+    margin: 0 auto;
+  }
+  .title {
+    font-size: 30px;
+    color: #024e76;
+    margin-right: 20px;
+    padding: 0 100px 20px 100px;
+    border-right: 3px solid;
+    display: flex;
+    width: 30%;
+  }
+  .work-content {
+      display: flex;
+      flex-wrap: wrap;
+      float: right;
+      width: 70%;
+
+    
+  }
+  .new{
+     width: 100%;
+
+  }
+  .old {
+     width: 50%;
+  }
+
+  .outline{
+      border: 2px gray dashed;
+  }
+  section {
+      clear: both;
+  }
+  img {
+      width: 100%;
+  }
+
+  .contact {
+      display: flex;
+      flex-wrap: wrap;
+      border-right: 3px solid;
+  }
+
+  .contact link{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+  }
