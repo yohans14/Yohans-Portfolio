@@ -81,12 +81,11 @@ footer h2 {
 .hero h2 {
 	background-color: burlywood;
 	padding: 20px;
-	width: 500px;
 	color: #024e76;
 	position: absolute;
 	bottom: 60px;
 	right: 70px;
-	border-radius: 30%;
+	border-radius: 5%;
 }
 .about {
 	display: flex;
@@ -158,8 +157,7 @@ img {
 }
 
 .contact-link ul li a {
-	padding: 10px 15px;
+	padding: 10px 5px;
 	font-weight: bolder;
-	font-size: 22px;
 	font-weight: 11.55vw;
 }
